@@ -28,36 +28,36 @@ function getCards() {
 
   outputMain += `
 
-       <div class="work-container card_${a.id}">
+       <div class="work-container card_{a.id}">
     
                  <div class="work-container-background">
-                     <div id="${a.id}" class="work-image-container">
-                          <img src="${a.image}" alt="Main image of professional with orange background"> 
+                     <div id="{a.id}" class="work-image-container">
+                          <img src="{a.image}" alt="Main image of professional with orange background"> 
                      </div>
     
                      <div class="work-text-container">
                          <div class="card-title">
-                              <h2>${a.name}</h2>
+                              <h2>{a.name}</h2>
                              <div class="work-complementary-text">
                                  <ul class="work-complementary-list">
-                                      <li class="canopy">${a.projectClient}</li>
-                                     <li class="canopy-complement"><img src="./Assets/Counter.png" alt="">${a.projectInfo[0]}</li>
-                                     <li class="canopy-complement"><img src="./Assets/Counter.png" alt="">${a.projectInfo[1]}</li>
+                                      <li class="canopy">{a.projectClient}</li>
+                                     <li class="canopy-complement"><img src="./Assets/Counter.png" alt="">{a.projectInfo[0]}</li>
+                                     <li class="canopy-complement"><img src="./Assets/Counter.png" alt="">{a.projectInfo[1]}</li>
                                  </ul>
                              </div>
                          </div>
                          <div class="card-body">
-                              <p>${a.mainText}</p>
+                              <p>{a.mainText}</p>
                              <div>
                                  <ul class="buttons-work-container">
-                                     <li class="btn-work-style">${a.technologies[0]}</li>
-                                     <li class="btn-work-style">${a.technologies[1]}</li>
-                                    <li class="btn-work-style">${a.technologies[2]}</li>
+                                     <li class="btn-work-style">{a.technologies[0]}</li>
+                                     <li class="btn-work-style">{a.technologies[1]}</li>
+                                    <li class="btn-work-style">{a.technologies[2]}</li>
                                  </ul>
                              </div>
                          </div>
                          <div class="card-button">
-                             <button onclick="getProject(${a.id})" class="button-work-project">SEE PROJECT</button>
+                             <button onclick="getProject({a.id})" class="button-work-project">SEE PROJECT</button>
                          </div>
                      </div>
                  </div>
