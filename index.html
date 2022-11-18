@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Project</title>
+</head>
+<body> 
+    <section class="main">
+    <!-- Homepage -->
+        <section>
+
+            <header>
+                <nav>
+                    <div class="logo">
+                        <a href="/">
+                            <p class="logo-text">My Logo</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <ul class="nav-pages nav-menu">
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        
+                     
+                            <button onclick="on()" class="menu-icon" >
+                                <img src="./Assets/Icon-Menu.png" alt="Click Menu">
+                            </button>
+                       
+                    </div>
+                </nav>
+            </header>
+
+            <div class="homepage">
+                
+                <div id="overlay">
+                    <button onclick="off()" class="close-icon">
+                        <img src="./Assets/cross_icon2.svg" alt="Close Menu">
+                    </button>
+                        <ul id="text">
+                            <li><a href="#portfolio" onclick="off()">Portfolio</a></li>
+                            <li><a href="#about" onclick="off()">About</a></li>
+                            <li><a href="#contact" onclick="off()">Contact</a></li>
+                        </ul>
+                </div>
+            
+                <div class="text-container" >
+                    <div>
+                        <h1 class="main-text">I’m Giovanni Glad to see you!</h1>
+                    </div>
+                    <div>
+                        <p class="secondary-text">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                    </div>
+                            
+                </div>
+
+                <div class="social-container">
+                    <div class="connect-title">LET'S CONNECT</div>
+                    <div>
+                        <ul class="connect-icons">
+                            <li>
+                                <a href="">
+                                    <img class="twitter" src="./Assets/twitter.svg" alt="Connect Twitter">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img class="Linkedin" src="./Assets/Linkedin icon.svg" alt="Connect Linkedin">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img class="medium" src="./Assets/medium.svg" alt="Connect Medium">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img class="github" src="./Assets/github.svg" alt="Connect Github">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img class="angellist" src="./Assets/angellist.svg" alt="Connect Angel List">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Dynamic Content on script.js -->
+        <section id="outputMain"> </section>
+   
+
+    <!-- About My Self Section -->
+        <section class="card-about" id="about">
+            <div class="about-container">
+
+                <div class="about-text-container">
+                    <h2 class="about-text">About Myself</h2>
+                    <div>
+                        <p class="about-secondary-text">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                    </div>   
+                
+                    <div class="about-social-container">
+                        <div class="about-connect-title">LET'S CONNECT</div>
+                            <div>
+                                <ul class="connect-icons">
+                                    <li>
+                                        <a href="">
+                                            <img class="twitter" src="./Assets/twitter.svg" alt="Connect Twitter">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img class="Linkedin" src="./Assets/Linkedin icon.svg" alt="Connect Linkedin">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img class="medium" src="./Assets/medium.svg" alt="Connect Medium">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img class="github" src="./Assets/github.svg" alt="Connect Github">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img class="angellist" src="./Assets/angellist.svg" alt="Connect Angel List">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+
+                    <div class="button-resume-div">
+                        <button class="button-resume">Get my Resume</button>
+                    </div>
+                
+            </div>
+
+                <div class="languages">
+            
+                    <div class="languages-list">
+                        <ul class="language-list-header">
+                            <li class="language-title">
+                                <p>Languages</p>
+                            </li>
+                            <li><img src="Assets/Union_down.png" alt=""></li>
+                        </ul>
+                        <ul class="language-list-body">
+                            <li class="languages-li">
+                                <img src="Assets/javascript_circle.png" alt="Javascript logo">
+                                <p>JAVASCRIPT</p>
+                            </li>
+                            <li class="languages-li">
+                                <img src="Assets/html_circle.png" alt="HTML logo">
+                                <p>HTML</p>
+                            </li>
+                            <li class="languages-li">
+                                <img src="Assets/css_circle.png" alt="CSS logo">
+                                <p>CSS</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="framework-title">
+                        <p>Frameworks</p>
+                        <img src="./Assets/Union.png" alt="">
+                    </div>
+                    <div class="framework-title">
+                        <p>Skills</p>
+                        <img src="./Assets/Union.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   <!-- Contact form Section -->
+        <section class="contact-section" id="contact">
+            <div class="contact-form">
+                <h2>Contact me</h2>
+                <p class="contact-me-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                <form id="contact-form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqbpdge " method="post">
+                    <fieldset>
+                    <label for="full-name"></label>
+                    <input onkeydown="saveData()" class="name-input" type="text" name="name" id="full-name" placeholder="Natani" maxlength="30" required="">
+                    <label for="email-address"></label>
+                    <div id="error"></div>
+                    <input onkeydown="saveData()" class="email-input" type="email" name="_replyto" id="email-address" placeholder="natajayanj14@gmail.com" required="">
+                    <label for="message"></label>
+                    <textarea onkeydown="saveData()" class="body-input" rows="5" name="message" id="message" maxlength="500" placeholder="Write your message here." required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input onclick="saveData()" class="form-btn-submit" type="submit" value="Get it Touch">
+                </form>
+            </div>
+        </section>
+        
+    </section>
+
+    <section>
+        <div id="output"></div>
+    </section>
+
+    <script src="./script.js" defer></script>
+
+</body>
+
+</html>

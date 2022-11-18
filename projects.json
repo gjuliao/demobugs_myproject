@@ -1,0 +1,46 @@
+[
+    {
+        "id": 0,
+        "name": "Tonic Portfolio",
+        "projectClient": "Canopy",
+        "projectInfo": ["Front End Dev", 2022],
+        "image": "Assets/Desktop/Tonic_Portfolio.png",
+        "technologies": ["html", "css", "javaScript"],
+        "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex nulla, convallis vel purus at, aliquet eleifend risus. Nulla maximus dolor mattis, posuere lacus sit amet, facilisis lacus. Duis maximus.",
+        "liveVersionLink": "https://gjuliao.github.io/myproject/",
+        "linkToSource": "https://github.com/gjuliao/myproject"
+    },
+    {
+        "id": 1,
+        "name": "Professional Art",
+        "projectClient": "Canopy",
+        "projectInfo": ["Back End Dev", 2015],
+        "image": "Assets/Desktop/Professional_art.png",
+        "technologies": ["html", "css", "javaScript"],
+        "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex nulla, convallis vel purus at, aliquet eleifend risus. Nulla maximus dolor mattis, posuere lacus sit amet, facilisis lacus. Duis maximus.",
+        "liveVersionLink": "https://gjuliao.github.io/myproject/",
+        "linkToSource": "https://github.com/gjuliao/myproject"
+    },
+    {   
+        "id": 2,
+        "name": "Availability",
+        "projectClient": "Canopy",
+        "projectInfo": ["Back End Dev", 2015],
+        "image": "Assets/Desktop/Availability.png",
+        "technologies": ["html", "css", "javaScript"],
+        "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex nulla, convallis vel purus at, aliquet eleifend risus. Nulla maximus dolor mattis, posuere lacus sit amet, facilisis lacus. Duis maximus.",
+        "liveVersionLink": "https://gjuliao.github.io/myproject/",
+        "linkToSource": "https://github.com/gjuliao/myproject"
+    },
+    {
+        "id": 3,
+        "name": "Nature",
+        "projectClient": "Canopy",
+        "projectInfo": ["Back End Dev", 2015],
+        "image": "Assets/Desktop/Nature.png",
+        "technologies": ["html", "css", "javaScript"],
+        "mainText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex nulla, convallis vel purus at, aliquet eleifend risus. Nulla maximus dolor mattis, posuere lacus sit amet, facilisis lacus. Duis maximus.",
+        "liveVersionLink": "https://gjuliao.github.io/myproject/",
+        "linkToSource": "https://github.com/gjuliao/myproject"
+    }
+]
